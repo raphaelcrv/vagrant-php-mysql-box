@@ -1,0 +1,1 @@
+# vagrant-php-mysql-box
