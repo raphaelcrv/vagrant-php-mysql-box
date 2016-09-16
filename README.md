@@ -1,68 +1,71 @@
-vagrant-php-mysql-box - under development 
-*Atention*
-This project is under development 
+# Vagrant-php-mysql-box - under development<br/>
 
-Actual Status
-- Only Virtual Machine is working without Mysql, Apache ... 
-===============
-
-The most fast development box with apache, mysql and phpmyadmin and access mysql without ssh
+The most fast development box with apache, mysql and phpmyadmin and allow you connect to guest mysql without ssh
 
 
-<h2>First Step's</h2>
-<p>Follow the instructions bellow and setup your PHP5 environment in minutes<p>
+<h2>Getting Started</h2>
+<p>Follow the instructions bellow and setup your PHP5 environment in minutes
+After you setup your project and run you can delete the git folder and start a new repo with your project for another's dev's</p>
 
-<ul>
-  <li>
-    Install vagrant using the installation instructions in the 
-    <a href="http://docs.vagrantup.com/v2/installation/" /target="_blank">Getting Started document</a>
-  </li>
-  <li>Clone this repository and run $ vagrant up</li>
-  <li>Put your php files inside the root of this project</li>
-  <li>Acess localhost:8080 or 33.33.33.10 and enjoy!</li>
-</ul>
-
-<h2>Vagrant Basic Commands</h2>
-<ul>
-  <li>```vagrant up``` starts and provisions the vagrant environment</li>
-  <li>```vagrant halt``` stops the vagrant machine</li>
-  <li>```vagrant suspend``` Suspends the guest machine</li>
-  <li>```vagrant resume``` resume a suspended vagrant machine</li>
-  <li>```vagrant ssh``` connects to machine via SSH</li>
-  <li>```vagrant reload``` restarts vagrant machine
-  <li>```vagrant destroy``` stops and deletes all traces of the vagrant machine
-</ul>
-
-<h2>PHP My Admin</h2>
-<ul>
-  <li>Available on localhost:8080/phpmyadmin</li>
-  <li>User: root Password: root</li>
-</ul>
-
-<h2>Mysql</h2>
-<ul>
-  <li>Hostname: 127.0.0.1</li>
-  <li>Username: vagrant</li>
-  <li>Server Port: 3307</li>
-  <li>Username: root</li>
-  <li>Password: root</li>
-</ul>
+* Install vagrant using the installation instructions in the <a href="http://docs.vagrantup.com/v2/installation/" /target="_blank">Getting Started document</a>
+* Clone this repository and run $ vagrant up in your bash or cmd
+* Put your php files inside the root directory of this project
+* Acess from your browser the address localhost:8080 or 33.33.33.10 and enjoy!
 
 
-<h2>Included components</h2>
+#Development Information
 
-<ul>
-  <li>php5</li>
-  <li>apache2</li>
-  <li>php5-cli</li>
-  <li>php5-xdebug</li>
-  <li>php5-mysql</li>
-  <li>php5-imagick</li>
-  <li>php5-mcrypt</li>
-  <li>php-pear</li>
-  <li>php5-dev</li>
-  <li>php5-curl</li>
-  <li>php5-sqlite</li>
-  <li>libapache2-mod-php5</li>
-</ul>
+###Vagrant Basic Commands
+
+* [ vagrant up ] - starts and provisions the vagrant environment</li>
+* [ vagrant halt ] - stops the vagrant machine</li>
+* [ vagrant suspend ] - Suspends the guest machine</li>
+* [ vagrant resume ] - resume a suspended vagrant machine</li>
+* [ vagrant ssh ] - connects to machine via SSH</li>
+* [ vagrant reload ] - restarts vagrant machine </li>
+* [ vagrant destroy ] - stops and deletes all traces of the vagrant machine </li>
+
+### PHP My Admin
+
+* Available on localhost:8080/phpmyadmin
+* User: root Password: root
+
+
+### Mysql
+
+* Hostname: 127.0.0.1
+* Username: vagrant
+* Server Port: 3307
+* Username: root
+* Password: root
+
+
+
+###Included components
+* php5
+* apache2
+* php5-cli
+* php5-xdebug
+* php5-mysql
+* php5-imagick
+* php5-mcrypt
+* php-pear
+* php5-dev
+* php5-curl
+* php5-sqlite
+* libapache2-mod-php5
+
+
+<h2>Contributing</h2>
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+* **Raphael Souza** - *Initial work* - [raphaelcrv repo](https://github.com/raphaelcrv)
+
+See also the list of [contributors](https://github.com/raphaelcrv/vagrant-php-mysql-box/edit/Readme-Update/CONTRIBUTING.md) who participated in this project.
+
+## License
+
+You must give appropriate credit, provide a link to this repo
 
