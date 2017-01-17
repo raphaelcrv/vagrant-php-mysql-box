@@ -36,3 +36,6 @@ mysql -uroot -proot -e "GRANT ALL ON *.* TO 'root'@'%' IDENTIFIED BY 'root';"
 
 echo -e "\e[92mApache restarted \e[0m"
 sudo service apache2 restart
+
+
+echo -e "\e[92mOpen Your Broswer and access the address http:\\localhost:8080 or 33.33.33.10 \e[0m"
