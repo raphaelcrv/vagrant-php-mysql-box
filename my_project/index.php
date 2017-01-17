@@ -40,8 +40,11 @@
           <li>[ vagrant reload ] - restarts vagrant machine</h1>
           <li>[ vagrant destroy ] - stops and deletes all traces of the vagrant machine</h1>
         </ul>
-
-        <div class="alert alert-success" role="alert">
+        <p><b>Connection to Mysql</b></p>
+        <p>Password:<b>root</b></p>
+        <img src='img/connection.PNG'/>
+        </br>
+        <div class="alert alert-success" style="margin-top: 10px;" role="alert">
           <?php
            echo "DEMO PHP SERVER DATE = ".date('l jS \of F Y h:i:s A');
           ?>
@@ -53,7 +56,5 @@
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
