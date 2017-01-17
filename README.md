@@ -1,5 +1,5 @@
-# Vagrant-php-mysql-box - under development<br/>
-
+# Vagrant-php-mysql-box<br/>
+Works with Wordpress 100% validate
 The most fast development box with apache, mysql and phpmyadmin and allow you connect to guest mysql without ssh
 
 
