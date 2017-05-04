@@ -4,14 +4,14 @@
 # Vagrantfile API/syntax version. Check Doc for More info
 VAGRANTFILE_VERSION = "2"
 
-
 Vagrant.configure(VAGRANTFILE_VERSION) do |config|
 # This configures what box the machine will be brought up against
 config.vm.box = "ubuntu/trusty64"
 
-# First parameter is a path to a directory on the host machine. (.) root host
+# First parameter is a path to a directory on the host machine. '(.) root host', 
+#Tip: You can customize add a folder and change the first parameter like /project and put y files inside project folder
 # Second parameter must be an absolute path of where to share the folder (/var/www) path guest
-config.vm.synced_folder ".", "/var/www"
+config.vm.synced_folder "./my_project", "/var/www/html"
 
 #Allow you to access a port on your host machine
   config.vm.network "forwarded_port", guest: 3306, host: 3307 #mysql
