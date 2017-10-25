@@ -41,7 +41,11 @@
           <li>[ vagrant destroy ] - stops and deletes all traces of the vagrant machine</h1>
         </ul>
         <p><b>Connection to Mysql</b></p>
+        <p>User:<b>root</b></p>
         <p>Password:<b>root</b></p>
+
+        <p>Port:<b>3307</b></p>
+
         <img src='img/connection.PNG'/>
         </br>
         <div class="alert alert-success" style="margin-top: 10px;" role="alert">
