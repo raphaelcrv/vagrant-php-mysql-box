@@ -33,7 +33,7 @@ After you setup your project and run you can delete the git folder and start a n
 
 ### Mysql
 
-* Hostname: 127.0.0.1
+* Hostname: 127.0.0.1 or localhost
 * Username: vagrant
 * Server Port: 3307
 * Username: root
